@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+ Expense Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ 🧾 Description
+Cette application mobile développée avec React Native permet de suivre ses dépenses quotidiennes. L’utilisateur peut ajouter, visualiser et supprimer des dépenses, avec un calcul automatique du total.
 
-## Get started
+Les données sont sauvegardées localement grâce à AsyncStorage, donc elles persistent même après avoir fermé ou redémarré l’application.
 
-1. Install dependencies
+![photo_2025-05-14_13-42-54](https://github.com/user-attachments/assets/45f78186-a430-49ec-91fa-23fb9fb820c7)
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+✨  Fonctionnalités principales
+✅ Ajouter une dépense avec nom et montant.
 
-   ```bash
-   npx expo start
-   ```
+✅ Afficher une liste des dépenses avec leurs montants.
 
-In the output, you'll find options to open the app in a
+✅ Supprimer une dépense.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+✅ Afficher le total de toutes les dépenses.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+✅ Sauvegarde locale automatique avec AsyncStorage.
 
-## Get a fresh project
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+🧠 Technologies utilisées
+React Native (avec Expo)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+@react-native-async-storage/async-storage pour le stockage local
 
-## Learn more
+useState, useEffect pour la gestion d'état et des effets
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📦 Installation et lancement
+      npm install
+      npx expo start
 
-## Join the community
+🧑‍🎓 Apprentissage
+      Ce projet m’a permis de comprendre :
+      
+      La gestion d’état avec useState
+      
+      L’usage de useEffect pour charger et sauvegarder des données
+      
+      Le fonctionnement de AsyncStorage pour garder les données même après fermeture
+      
+      Les interactions de base (TextInput, Button, ScrollView)
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
